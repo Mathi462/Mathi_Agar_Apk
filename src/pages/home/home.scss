@@ -1,0 +1,55 @@
+page-home {
+
+
+    .img{
+        width: auto;
+        height: auto;
+        border-radius: 5px 5px 5px 5px;
+    }
+  
+  .box{
+    width: auto;
+    height: 125px;
+  
+    background-color: #22a1cc;
+  }
+  .head{
+    background-color: #22a1cc;
+  }
+  
+    .slider{
+        height:155px;
+        border-radius: 5px ;
+    }
+   .center{
+      text-align: center;
+  }
+    .image-card{
+        width: 150px;
+        height: auto;
+    }
+    .box2{
+      text-align: center;
+      // background-color: #012b72;
+      background-color: rgb(219, 64, 199);
+      // color: white;
+      border-radius: 12px ;
+      width: auto;
+      height: 148px;
+      text-align: center;
+      justify-content:center;
+      
+  }
+
+  
+  
+   
+  
+  
+  
+    ::-webkit-scrollbar, *::-webkit-scrollbar { display: none; }
+  
+  
+  
+  }
+  
