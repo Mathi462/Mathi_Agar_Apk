@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content>
-    <!-- <ion-card > -->
+  <!-- <ion-card > -->
   <ion-card class="slider" autoplay="5000" pager="true" loop="true" speed="300">
     <ion-slides autoplay="10" loop="true" speed="2500">
       <ion-slide *ngFor="let slide of slideData">
@@ -14,16 +14,16 @@
       </ion-slide>
     </ion-slides>
   </ion-card>
-<!-- </ion-card> -->
-  
+  <!-- </ion-card> -->
 
- 
+
+
 
 
   <ion-card style="height:22px;">
-      <marquee behavior="scroll" direction="left">Welcome to Agarthulir Family...!</marquee>
+    <marquee behavior="scroll" direction="left">Welcome to Agarthulir Family...!</marquee>
   </ion-card>
-    <!-- <ion-row>
+  <!-- <ion-row>
       <ion-col col-6>
         <ion-card class="box" > <button style="justify-content:center;height:125px;width:150px;text-align: center"  ion-button color="light" (click)="eventCall()" clear>Event</button></ion-card>
         
@@ -49,35 +49,48 @@
         </ion-col>
       </ion-row> -->
 
-      <ion-card class="box2" (click)="eventCall()" >
+  <ion-row>
+    <ion-col col-6>
+      <ion-card class="box2" (click)="eventCall()">
+
         <ion-card-content>
-           <p style="color: white;">  <strong>Events</strong></p>
+          <img src="assets/imgs/stopwatch.svg" style="height: 100px;width: 100px;" />
+          <p style="color: black;"> <strong>Events</strong></p>
         </ion-card-content>
       </ion-card>
-
-      <ion-card class="box2">
+    </ion-col>
+    <ion-col col-6>
+      <ion-card class="box2" (click)="donationCall()">
         <ion-card-content>
-           <p style="color: white;">  <strong>Donation</strong></p>
+          <img src="assets/imgs/piggy-bank.svg" style="height: 100px;width: 100px;" />
+          <p style="color: black;"> <strong>Donation</strong></p>
         </ion-card-content>
       </ion-card>
+    </ion-col>
+  </ion-row>
 
+  <ion-row>
+    <ion-col col-6>
       <ion-card class="box2" (click)="imageCall()">
         <ion-card-content>
-           <p style="color: white;">  <strong>Image Galary</strong></p>
+          <img src="assets/imgs/picture.svg" style="height: 100px;width: 100px;" />
+          <p style="color: black;"> <strong>Image Galary</strong></p>
         </ion-card-content>
       </ion-card>
-
-      
+    </ion-col>
+    <ion-col col-6>
       <ion-card class="box2" (click)="register()">
         <ion-card-content>
-           <p style="color: white;">  <strong>Register New Member</strong></p>
+          <img src="assets/imgs/edit.svg" style="height: 100px;width: 100px;" />
+          <p style="color: black;"> <strong>Register New Member</strong></p>
         </ion-card-content>
       </ion-card>
-      
+    </ion-col>
+  </ion-row>
 
 
 
-       
+
 
 
 </ion-content>

@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { ImagePage } from '../image/image';
 import { EventPage } from '../event/event';
 import { RegisterPage } from '../register/register';
+import { DonationPage } from '../donation/donation';
 
 @Component({
   selector: 'page-home',
@@ -32,4 +33,7 @@ export class HomePage {
     this.navCtrl.push(RegisterPage);
   }
 
+  donationCall(){
+    this.navCtrl.push(DonationPage);
+  }
 }
