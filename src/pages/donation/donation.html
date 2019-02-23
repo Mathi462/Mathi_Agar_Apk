@@ -23,7 +23,49 @@
   </ion-card>
 
   <ion-card class="title2">
-    <ion-card-header> <strong> Account Details: </strong></ion-card-header>
+    <ion-card-header> <strong> Account Detail 1: </strong></ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <label>Account Number</label>
+          </ion-col>
+          <ion-col>
+            : 123456987
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <label>IFSC Number</label>
+          </ion-col>
+          <ion-col>
+            : 1234ghj
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <label>Bank </label>
+          </ion-col>
+          <ion-col>
+            : Axis
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <label>Branch</label>
+          </ion-col>
+          <ion-col>
+            : Chennai
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-card class="title2">
+    <ion-card-header> <strong> Account Details 2: </strong></ion-card-header>
 
     <ion-card-content>
       <ion-grid>
@@ -67,31 +109,34 @@
   <ion-card class="title2">
      <ion-card-header> <strong> Account Details: </strong></ion-card-header>
 
-    <!--<ion-grid>
-      <ion-row>
-        <ion-col col-3>
-          <label>UPI ID</label>
-        </ion-col>
-        <ion-col>
-          : agarthulir@okaxis
-        </ion-col>
-      </ion-row>
-      <ion-row>
-          <ion-col col-3>
-            <label>Paytm Number</label>
-          </ion-col>
-          <ion-col>
-            : 123456987
-          </ion-col>
-        </ion-row>
-    </ion-grid> -->
+   
     <ion-list>
-        <button ion-item>
-          <ion-icon name="cart" item-start></ion-icon>
-          Shopping
-        </button>
+        <ion-item>
+            <ion-avatar item-start>
+              <img src="assets/imgs/UPI.svg">
+            </ion-avatar>
+            <h2>UPI</h2>
+            <p>agarthulir@gmail.com</p>
+          </ion-item>
+
+          <ion-item>
+              <ion-avatar item-start>
+                <img src="assets/imgs/gpay.svg">
+              </ion-avatar>
+              <h2>Google Pay</h2>
+              <p>agarthulir@gmail.com</p>
+            </ion-item>
+
+            <ion-item>
+                <ion-avatar item-start>
+                  <img src="assets/imgs/paytm.svg">
+                </ion-avatar>
+                <h2>Paytm</h2>
+                <p>agarthulir@gmail.com</p>
+              </ion-item>
+       
     
-        <button ion-item>
+        <!-- <button ion-item>
           <ion-icon name="medical" item-start></ion-icon>
           Hospital
         </button>
@@ -114,7 +159,7 @@
         <button ion-item>
           <ion-icon name="planet" item-start></ion-icon>
           Space
-        </button>
+        </button> -->
     
       </ion-list>
     
